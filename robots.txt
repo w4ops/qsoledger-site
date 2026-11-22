@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://qsoledger.com/sitemap.xml
