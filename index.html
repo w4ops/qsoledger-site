@@ -11,7 +11,7 @@
 <meta property="og:image" content="https://qsoledger.com/icon.png">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "QSO Ledger", "operatingSystem": "macOS 14 or later", "applicationCategory": "UtilitiesApplication", "description": "Ham radio logbook for Mac: an N3FJP-style amateur radio logger with CAT control, DX clusters, POTA spots, awards and ADIF import.", "url": "https://qsoledger.com/", "image": "https://qsoledger.com/icon.png", "author": {"@type": "Person", "name": "W4OPS"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is QSO Ledger a copy of N3FJP?", "acceptedAnswer": {"@type": "Answer", "text": "No. QSO Ledger is heavily inspired by N3FJP's AC Log, but it isn't a direct copy. It may not have every feature AC Log has, and it has some that AC Log doesn't. Everything has been designed and optimized for the Mac."}}, {"@type": "Question", "name": "Is there an N3FJP logger for Mac?", "acceptedAnswer": {"@type": "Answer", "text": "N3FJP Software makes its loggers for Windows. QSO Ledger is a separate, native Mac ham radio logbook with a similar simple layout. It is not affiliated with N3FJP Software."}}, {"@type": "Question", "name": "Can I move my N3FJP AC Log contacts to my Mac?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Export an ADIF file from AC Log and import it into QSO Ledger with File, Import ADIF."}}, {"@type": "Question", "name": "Does QSO Ledger work offline?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Your logbook is stored on your Mac, so you can log in the shack or the field with no internet."}}, {"@type": "Question", "name": "Does QSO Ledger support POTA, CAT control and DX clusters?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. It shows live POTA spots and several DX clusters at once, and reads frequency and mode from Icom, Yaesu, Kenwood and Elecraft radios or rigctld."}}]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "QSO Ledger", "operatingSystem": "macOS 14 or later", "applicationCategory": "UtilitiesApplication", "description": "Ham radio logbook for Mac with CAT control, DX clusters, POTA spots, awards and ADIF import, with a layout inspired by N3FJP's AC Log.", "url": "https://qsoledger.com/", "image": "https://qsoledger.com/icon.png", "author": {"@type": "Person", "name": "W4OPS"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is QSO Ledger affiliated with N3FJP?", "acceptedAnswer": {"@type": "Answer", "text": "No. QSO Ledger is an independent Mac app. It was inspired by the simple, classic layout that made N3FJP's AC Log a favorite: recent contacts on top and entry boxes below. Everything else was designed and built from scratch for macOS. It doesn't have every AC Log feature, and it has some AC Log doesn't, like native Mac menus, Keychain-stored logins and a choice of color themes. If you love AC Log on Windows, keep using it. QSO Ledger is for hams who want that same simple way of logging on a Mac."}}, {"@type": "Question", "name": "Is there an N3FJP logger for Mac?", "acceptedAnswer": {"@type": "Answer", "text": "N3FJP Software makes its loggers for Windows. Mac users have usually run them through Parallels, a Windows virtual machine or Wine. That works, but you pay for and maintain a second operating system, and radio control over USB can be fiddly. QSO Ledger is a native Mac logbook with a similar layout, so there's no Windows install and no emulation. It is not affiliated with N3FJP Software."}}, {"@type": "Question", "name": "Can I move my N3FJP AC Log contacts to my Mac?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, in a few minutes. In AC Log, export your log as an ADIF file and save it somewhere your Mac can reach, such as a USB stick, a cloud folder or email. In QSO Ledger, choose File → Import ADIF and select the file. QSO Ledger reads your contacts, QSL and LoTW confirmation status, grids and comments, then works out your WAS, DXCC and grid progress. Your AC Log file isn't changed. The same steps work for any logger that exports ADIF."}}, {"@type": "Question", "name": "Does QSO Ledger work offline?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Your logbook is stored on your Mac, so logging, award tracking, search and ADIF import and export all work with no internet: in the shack, at a park, on a hilltop or at Field Day. DX cluster and POTA spots, callbook lookups and LoTW, QRZ, eQSL and Club Log uploads pick up again when you're back online."}}, {"@type": "Question", "name": "Does it support POTA, CAT control and DX clusters?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, all three. CAT control reads frequency, band and mode from Icom, Yaesu, Kenwood, Elecraft and FlexRadio radios, or any rig Hamlib's rigctld supports, and clicking a spot tunes your radio to it. You can connect to several DX clusters at once and filter spots by band, mode and where the spotter is. Live POTA activator spots show alongside, and you can keep a separate ledger for each activation and post it to your General Ledger for awards."}}, {"@type": "Question", "name": "Which Macs does it run on?", "acceptedAnswer": {"@type": "Answer", "text": "Any Mac running macOS 14 Sonoma or later. It's a universal app, so it runs natively on Apple Silicon (M1 and newer) and Intel Macs, with no Rosetta or extra software."}}, {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "QSO Ledger will be a one-time purchase on the Mac App Store, with free updates for life. No subscription."}}, {"@type": "Question", "name": "Where is my log stored, and how is it backed up?", "acceptedAnswer": {"@type": "Answer", "text": "Your log is stored on your Mac, and Time Machine backs it up along with everything else. QSO Ledger can also save automatic backups as standard ADIF files, daily, weekly or each time you quit, to a folder you choose, such as an external drive or a cloud folder. It keeps the last 7 by default. You can export your whole log to ADIF anytime, and there's no account to sign up for."}}, {"@type": "Question", "name": "Does it support contests or Field Day?", "acceptedAnswer": {"@type": "Answer", "text": "Basic support. File → Export Cabrillo writes a contest log with your categories, sent exchange and serial numbers, and you can keep a separate ledger for Field Day or each contest. There's no live contest scoring or multi-computer Field Day networking yet."}}, {"@type": "Question", "name": "How do I report a bug or request a feature?", "acceptedAnswer": {"@type": "Answer", "text": "Email support@qsoledger.com. Include your macOS version and what you were doing, and attach a screenshot if you can."}}]}]}
 </script>
 <link rel="icon" href="icon.png"><link rel="stylesheet" href="style.css">
 </head><body>
@@ -23,13 +23,13 @@
 <header class="hero"><div class="wrap">
  <div>
   <div class="eyebrow">Ham Radio Logbook for Mac</div>
-  <h1>The classic ham radio logbook, <em>finally on the Mac.</em></h1>
-  <p class="lede">QSO Ledger is an amateur radio logger built for macOS that keeps logging simple: recent contacts on top, entry boxes below, and everything a ham needs. No clutter, no learning curve.</p>
+  <h1>The classic ham radio logbook, <em>finally native on the Mac.</em></h1>
+  <p class="lede">QSO Ledger keeps logging simple: recent contacts on top, entry boxes below, all on one screen. No clutter, no learning curve. CAT control, DX spots, POTA, awards and ADIF are all built in.</p>
   <div class="cta">
-   <a class="btn gold" href="#download">Download for Mac</a>
+   <a class="btn gold" href="#download">Coming soon to the Mac App Store</a>
    <a class="btn ghost" href="#features">See the features</a>
   </div>
-  <div class="small">Free download · macOS 14 Sonoma or later · Apple Silicon and Intel</div>
+  <div class="small">One-time purchase · Free updates for life · macOS 14 Sonoma or later · Apple Silicon and Intel</div>
  </div>
  <div class="heroicon"><img src="icon.png" alt="QSO Ledger ham radio logbook for Mac app icon"></div>
 </div></header>
@@ -41,39 +41,40 @@
 <section class="center"><div class="wrap">
  <div class="eyebrow" style="color:var(--gold)">Built like a ledger</div>
  <h2>Everything on one screen</h2>
- <p class="sub">Recent contacts on top, live DX spots on the side, and the entry form at the bottom, right where your hands expect it.</p>
+ <p class="sub">Your log, live spots and the entry form, all in view. Type a call, hit Enter, and you're back on the air.</p>
  <div class="window">
   <div class="tbar"><i class="dot r"></i><i class="dot y"></i><i class="dot g"></i><span>QSO Ledger — General Ledger</span></div>
   <div class="wbody">
    <div><table>
     <tr><th>#</th><th>Call</th><th>Date</th><th>UTC</th><th>Band</th><th>Mode</th><th>Country</th><th>State</th></tr>
-    <tr><td>1,284</td><td><b>NA4RO</b></td><td>11/22</td><td>1342</td><td>20</td><td>SSB</td><td>United States</td><td>TN</td></tr>
+    <tr><td>1,284</td><td><b>N4QZX</b></td><td>11/22</td><td>1342</td><td>20</td><td>SSB</td><td>United States</td><td>TN</td></tr>
     <tr><td>1,283</td><td><b>W1AW</b></td><td>11/22</td><td>1338</td><td>40</td><td>CW</td><td>United States</td><td>CT</td></tr>
-    <tr><td>1,282</td><td><b>VE2EZD</b></td><td>11/22</td><td>1331</td><td>40</td><td>SSB</td><td>Canada</td><td>QC</td></tr>
-    <tr><td>1,281</td><td><b>EA8DO</b></td><td>11/22</td><td>1319</td><td>15</td><td>FT8</td><td>Canary Is.</td><td></td></tr>
-    <tr><td>1,280</td><td><b>K4SWL</b></td><td>11/21</td><td>2217</td><td>20</td><td>CW</td><td>United States</td><td>NC</td></tr>
-    <tr><td>1,279</td><td><b>JA1XGI</b></td><td>11/21</td><td>2204</td><td>20</td><td>FT8</td><td>Japan</td><td></td></tr>
-    <tr><td>1,278</td><td><b>W4OPS</b></td><td>11/21</td><td>2150</td><td>80</td><td>SSB</td><td>United States</td><td>TN</td></tr>
+    <tr><td>1,282</td><td><b>VE2QXD</b></td><td>11/22</td><td>1331</td><td>40</td><td>SSB</td><td>Canada</td><td>QC</td></tr>
+    <tr><td>1,281</td><td><b>EA8QZ</b></td><td>11/22</td><td>1319</td><td>15</td><td>FT8</td><td>Canary Is.</td><td></td></tr>
+    <tr><td>1,280</td><td><b>N8XQV</b></td><td>11/21</td><td>2217</td><td>20</td><td>CW</td><td>United States</td><td>NC</td></tr>
+    <tr><td>1,279</td><td><b>JA1QXZ</b></td><td>11/21</td><td>2204</td><td>20</td><td>FT8</td><td>Japan</td><td></td></tr>
+    <tr><td>1,278</td><td><b>KD4ZQX</b></td><td>11/21</td><td>2150</td><td>80</td><td>SSB</td><td>United States</td><td>TN</td></tr>
    </table></div>
    <div class="spots">
     <h4><span>DX Spots</span><span>● Connected</span></h4>
-    <div class="s"><b>14.250</b><span class="new">ZD7Z</span><span>SSB</span></div>
-    <div class="s"><b>7.188</b><span>K8MRD</span><span>POTA</span></div>
-    <div class="s"><b>21.074</b><span class="new">3B8M</span><span>FT8</span></div>
-    <div class="s"><b>14.030</b><span>OH2BH</span><span>CW</span></div>
-    <div class="s"><b>7.255</b><span>WW4LL</span><span>SSB</span></div>
-    <div class="s"><b>18.110</b><span>EA8DO</span><span>SSB</span></div>
+    <div class="s"><b>14.250</b><span class="new">ZD7QX</span><span>SSB</span></div>
+    <div class="s"><b>7.188</b><span>K8QZV</span><span>POTA</span></div>
+    <div class="s"><b>21.074</b><span class="new">3B8QX</span><span>FT8</span></div>
+    <div class="s"><b>14.030</b><span>OH2QZX</span><span>CW</span></div>
+    <div class="s"><b>7.255</b><span>WW4QXZ</span><span>SSB</span></div>
+    <div class="s"><b>18.110</b><span>EA8QZ</span><span>SSB</span></div>
    </div>
   </div>
   <div class="entry">
    <div class="esc">Esc = Clear Entry Form</div>
    <div class="boxes">
-    <div class="box call"><div class="l">Call</div><div class="v">ZD7Z</div></div>
+    <div class="box call"><div class="l">Call</div><div class="v">ZD7QX</div></div>
     <div class="box"><div class="l">Date</div><div class="v">11/22/26</div></div>
     <div class="box"><div class="l">UTC</div><div class="v">1345</div></div>
     <div class="box"><div class="l">Band</div><div class="v">20</div></div>
     <div class="box"><div class="l">Mode</div><div class="v">SSB</div></div>
-    <div class="box"><div class="l">Snt</div><div class="v">59</div></div>
+    <div class="box"><div class="l">Sent</div><div class="v">59</div></div>
+    <div class="box"><div class="l">Rec</div><div class="v">57</div></div>
    </div>
    <div class="boxes">
     <div class="box"><div class="l">Name</div><div class="v">Phil</div></div>
@@ -98,8 +99,18 @@
   <div class="card"><div class="ico">eLogs</div><h3>LoTW, QRZ, eQSL, Club Log</h3><p>Upload and confirm contacts with the services you already use, with logins kept in your Keychain.</p></div>
   <div class="card"><div class="ico">Digital</div><h3>WSJT-X &amp; JTDX</h3><p>FT8 and FT4 contacts log themselves, with the band, mode, grid and report filled in.</p></div>
   <div class="card"><div class="ico">ADIF</div><h3>ADIF import &amp; export</h3><p>Bring your whole log over from AC Log or any other logger, and take it with you anytime.</p></div>
-  <div class="card ph"><div class="ico">Placeholder</div><h3>Callbook lookups</h3><p>Suggested: names, QTH and grids filled in from QRZ or HamQTH as you type the call.</p></div>
-  <div class="card ph"><div class="ico">Placeholder</div><h3>Net Manager</h3><p>Suggested: check stations in and out of a net and log them all at once.</p></div>
+  <div class="card"><div class="ico">Lookups</div><h3>Callbook lookups</h3><p>Name, QTH and grid filled in from your QRZ.com or HamQTH account when you tab out of Call.</p></div>
+  <div class="card"><div class="ico">Nets</div><h3>Net Manager</h3><p>Check stations in to a net, then log them all at once and share the roster as a PDF.</p></div>
+ </div>
+</div></section>
+
+<section class="center"><div class="wrap">
+ <div class="eyebrow" style="color:var(--gold)">Your log is yours</div>
+ <h2>No account. No lock-in. No lost logs.</h2>
+ <div class="grid" style="text-align:left">
+  <div class="card"><div class="ico">Private</div><h3>Stays on your Mac</h3><p>No QSO Ledger account to sign up for. Your log is stored on your Mac and syncs only through your own iCloud.</p></div>
+  <div class="card"><div class="ico">Backups</div><h3>Automatic backups</h3><p>Daily, weekly or on quit, as standard ADIF files in a folder you choose. Time Machine covers your log too.</p></div>
+  <div class="card"><div class="ico">ADIF</div><h3>Export anytime</h3><p>Your whole log, or just a range of contacts, as ADIF that any logger, LoTW or Club Log can read.</p></div>
  </div>
 </div></section>
 
@@ -107,9 +118,9 @@
  <div>
   <div class="eyebrow" style="color:var(--gold)">For AC Log users</div>
   <h2>Coming from AC Log? You’ll feel at home.</h2>
-  <p class="sub">If you've logged with N3FJP's AC Log on Windows, QSO Ledger will feel familiar on day one: a simple, classic logbook layout with recent contacts on top and entry boxes below, built as a native macOS app.</p>
+  <p class="sub">If you've used N3FJP's AC Log on Windows, QSO Ledger's layout will feel familiar from day one: recent contacts on top, entry boxes below. It's rebuilt from scratch as a native Mac app, so there's no Parallels and no Wine.</p>
   <ul class="check">
-   <li>Recent contacts on top, entry boxes at the bottom</li>
+   <li>No Windows license, virtual machine or Wine to maintain</li>
    <li>Tab out of Call to see earlier contacts with that station</li>
    <li>Import your AC Log ADIF file in one step</li>
    <li>Your own top-row and bottom-row boxes and columns</li>
@@ -120,14 +131,14 @@
    <div class="tbar"><i class="dot r"></i><i class="dot y"></i><i class="dot g"></i><span>QSO Ledger — Navy</span></div>
    <table>
     <tr><th>#</th><th>Call</th><th>UTC</th><th>Band</th><th>Mode</th><th>Country</th></tr>
-    <tr><td>1,284</td><td><b>NA4RO</b></td><td>1342</td><td>20</td><td>SSB</td><td>United States</td></tr>
+    <tr><td>1,284</td><td><b>N4QZX</b></td><td>1342</td><td>20</td><td>SSB</td><td>United States</td></tr>
     <tr><td>1,283</td><td><b>W1AW</b></td><td>1338</td><td>40</td><td>CW</td><td>United States</td></tr>
-    <tr><td>1,282</td><td><b>VE2EZD</b></td><td>1331</td><td>40</td><td>SSB</td><td>Canada</td></tr>
-    <tr><td>1,281</td><td><b>EA8DO</b></td><td>1319</td><td>15</td><td>FT8</td><td>Canary Is.</td></tr>
+    <tr><td>1,282</td><td><b>VE2QXD</b></td><td>1331</td><td>40</td><td>SSB</td><td>Canada</td></tr>
+    <tr><td>1,281</td><td><b>EA8QZ</b></td><td>1319</td><td>15</td><td>FT8</td><td>Canary Is.</td></tr>
    </table>
    <div class="entry">
     <div class="boxes">
-     <div class="box call"><div class="l">Call</div><div class="v">K4SWL</div></div>
+     <div class="box call"><div class="l">Call</div><div class="v">N8XQV</div></div>
      <div class="box"><div class="l">Band</div><div class="v">20</div></div>
      <div class="box"><div class="l">Mode</div><div class="v">CW</div></div>
      <div class="box"><div class="l">Name</div><div class="v">Tom</div></div>
@@ -142,12 +153,16 @@
 <section id="faq"><div class="wrap" style="max-width:860px">
  <div class="center"><div class="eyebrow" style="color:var(--gold)">Questions</div><h2>Ham radio logging on a Mac, answered</h2></div>
  <div class="faq">
-  <details open><summary>Is QSO Ledger a copy of N3FJP?</summary><p>No. QSO Ledger is heavily inspired by N3FJP's AC Log, but it isn't a direct copy. It may not have every feature AC Log has, and it has some that AC Log doesn't. Everything has been designed and optimized for the Mac.</p></details>
-  <details><summary>Is there an N3FJP logger for Mac?</summary><p>N3FJP Software makes its loggers for Windows. QSO Ledger is a separate, native Mac ham radio logbook with a similar simple layout. It is not affiliated with N3FJP Software.</p></details>
-  <details><summary>Can I move my N3FJP AC Log contacts to my Mac?</summary><p>Yes. In AC Log, export an ADIF file. In QSO Ledger, choose File → Import ADIF. Your contacts, QSL status and award progress come with them.</p></details>
-  <details><summary>Does QSO Ledger work offline?</summary><p>Yes. Your logbook lives on your Mac, so you can log in the shack, at a park or on Field Day with no internet.</p></details>
-  <details><summary>Does it support POTA, CAT control and DX clusters?</summary><p>Yes. It shows live POTA spots and several DX clusters at once, and reads frequency and mode from Icom, Yaesu, Kenwood and Elecraft radios or rigctld.</p></details>
-  <details><summary>Which Macs does it run on?</summary><p>Any Mac with macOS 14 Sonoma or later, Apple Silicon or Intel.</p></details>
+  <details open><summary>Is QSO Ledger affiliated with N3FJP?</summary><p>No. QSO Ledger is an independent Mac app. It was inspired by the simple, classic layout that made N3FJP's AC Log a favorite: recent contacts on top and entry boxes below. Everything else was designed and built from scratch for macOS. It doesn't have every AC Log feature, and it has some AC Log doesn't, like native Mac menus, Keychain-stored logins and a choice of color themes. If you love AC Log on Windows, keep using it. QSO Ledger is for hams who want that same simple way of logging on a Mac.</p></details>
+  <details><summary>Is there an N3FJP logger for Mac?</summary><p>N3FJP Software makes its loggers for Windows. Mac users have usually run them through Parallels, a Windows virtual machine or Wine. That works, but you pay for and maintain a second operating system, and radio control over USB can be fiddly. QSO Ledger is a native Mac logbook with a similar layout, so there's no Windows install and no emulation. It is not affiliated with N3FJP Software.</p></details>
+  <details><summary>Can I move my N3FJP AC Log contacts to my Mac?</summary><p>Yes, in a few minutes. In AC Log, export your log as an ADIF file and save it somewhere your Mac can reach, such as a USB stick, a cloud folder or email. In QSO Ledger, choose File → Import ADIF and select the file. QSO Ledger reads your contacts, QSL and LoTW confirmation status, grids and comments, then works out your WAS, DXCC and grid progress. Your AC Log file isn't changed. The same steps work for any logger that exports ADIF.</p></details>
+  <details><summary>Does QSO Ledger work offline?</summary><p>Yes. Your logbook is stored on your Mac, so logging, award tracking, search and ADIF import and export all work with no internet: in the shack, at a park, on a hilltop or at Field Day. DX cluster and POTA spots, callbook lookups and LoTW, QRZ, eQSL and Club Log uploads pick up again when you're back online.</p></details>
+  <details><summary>Does it support POTA, CAT control and DX clusters?</summary><p>Yes, all three. CAT control reads frequency, band and mode from Icom, Yaesu, Kenwood, Elecraft and FlexRadio radios, or any rig Hamlib's rigctld supports, and clicking a spot tunes your radio to it. You can connect to several DX clusters at once and filter spots by band, mode and where the spotter is. Live POTA activator spots show alongside, and you can keep a separate ledger for each activation and post it to your General Ledger for awards.</p></details>
+  <details><summary>Which Macs does it run on?</summary><p>Any Mac running macOS 14 Sonoma or later. It's a universal app, so it runs natively on Apple Silicon (M1 and newer) and Intel Macs, with no Rosetta or extra software.</p></details>
+  <details><summary>How much does it cost?</summary><p>QSO Ledger will be a one-time purchase on the Mac App Store, with free updates for life. No subscription.</p></details>
+  <details><summary>Where is my log stored, and how is it backed up?</summary><p>Your log is stored on your Mac, and Time Machine backs it up along with everything else. QSO Ledger can also save automatic backups as standard ADIF files, daily, weekly or each time you quit, to a folder you choose, such as an external drive or a cloud folder. It keeps the last 7 by default. You can export your whole log to ADIF anytime, and there's no account to sign up for.</p></details>
+  <details><summary>Does it support contests or Field Day?</summary><p>Basic support. File → Export Cabrillo writes a contest log with your categories, sent exchange and serial numbers, and you can keep a separate ledger for Field Day or each contest. There's no live contest scoring or multi-computer Field Day networking yet.</p></details>
+  <details><summary>How do I report a bug or request a feature?</summary><p>Email <a href="mailto:support@qsoledger.com">support@qsoledger.com</a>. Include your macOS version and what you were doing, and attach a screenshot if you can.</p></details>
  </div>
 </div></section>
 
@@ -155,20 +170,20 @@
  <div class="eyebrow" style="color:var(--gold)">Get QSO Ledger</div>
  <h2>Your log, wherever you operate</h2>
  <div class="platforms">
-  <div class="plat"><span class="tag">Available</span><h3>Mac</h3><p>Download the app today. Works offline in the shack or the field.</p><a class="btn gold" href="#">Download .dmg</a></div>
-  <div class="plat"><span class="tag soon">Coming soon</span><h3>Mac App Store</h3><p>Automatic updates and one-click install.</p></div>
-  <div class="plat"><span class="tag soon">Planned</span><h3>iPhone &amp; iCloud</h3><p>Log a park activation on your phone and see it on your Mac.</p></div>
+  <div class="plat"><span class="tag soon">Coming soon</span><h3>Mac App Store</h3><p>One-time purchase with free updates for life. Reviewed and distributed by Apple, so it installs without security warnings.</p><a class="btn gold" href="mailto:support@qsoledger.com?subject=Notify%20me%20when%20QSO%20Ledger%20launches">Notify me at launch</a></div>
+  <div class="plat"><span class="tag soon">Planned</span><h3>iPhone &amp; iCloud</h3><p>Log a park activation on your phone and see it on your Mac.</p><a class="btn ghost" style="color:var(--green)" href="mailto:support@qsoledger.com?subject=Notify%20me%20about%20QSO%20Ledger%20for%20iPhone">Notify me</a></div>
+  <div class="plat"><span class="tag">Support</span><h3>Questions?</h3><p>Email <a href="mailto:support@qsoledger.com">support@qsoledger.com</a> or see the <a href="support.html">Support page</a>.</p></div>
  </div>
 </div></section>
 
 <section class="final"><div class="wrap">
  <h2>Pick up the mic. We'll keep the books.</h2>
  <p class="sub" style="color:#E6DECB;margin:0 auto 28px">QSO Ledger is built by a ham, for hams.</p>
- <a class="btn gold" href="#download">Download for Mac</a>
+ <a class="btn gold" href="#download">Coming soon to the Mac App Store</a>
 </div></section>
 
 <footer><div class="wrap">
- <span>© 2026 QSO Ledger · Built by W4OPS · Inspired by <a href="https://www.n3fjp.com" style="margin:0">N3FJP</a>. Not affiliated with N3FJP Software.</span>
- <span><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="https://github.com/w4ops/mac-logger">GitHub</a></span>
+ <span>© 2026 QSO Ledger · Built by W4OPS · Layout inspired by N3FJP's AC Log. N3FJP and AC Log are trademarks of their owner; QSO Ledger is not affiliated with or endorsed by N3FJP Software.</span>
+ <span><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="https://github.com/w4ops/mac-logger">GitHub</a><a href="releases.html">Release notes</a></span>
 </div></footer>
 </body></html>
