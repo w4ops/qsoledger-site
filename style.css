@@ -95,4 +95,4 @@ footer a{color:var(--gold2);text-decoration:none;margin-left:22px}
 .faq p{margin:0 0 18px;color:#5b5446}
 .bench{margin:40px auto 0;max-width:760px;text-align:left;background:#fff;border:1px dashed var(--gold);border-radius:10px;padding:26px 30px}
 .bench h3{margin:0 0 6px;color:var(--green)}
-.two>*{min-width:0}
+#tab .two>*{min-width:0}
