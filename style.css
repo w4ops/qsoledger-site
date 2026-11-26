@@ -8,6 +8,7 @@ nav{background:var(--green);border-bottom:3px solid var(--gold)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
 .brand{display:flex;align-items:center;gap:12px;color:var(--cream);text-decoration:none;font-size:22px;letter-spacing:.5px}
 .brand img{width:38px;height:38px}
+.navl{display:flex;align-items:center;gap:16px}.fb{color:var(--gold2);text-decoration:none;font:600 13px -apple-system,Helvetica,Arial;border:1px solid var(--gold);border-radius:20px;padding:4px 11px}.fb:hover{background:var(--gold);color:var(--green)}
 nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0}
 nav ul a{color:var(--cream);text-decoration:none;font:600 14px -apple-system,Helvetica,Arial;letter-spacing:.4px}
 nav ul a:hover{color:var(--gold2)}
@@ -34,7 +35,7 @@ h1 em{color:var(--gold2);font-style:italic}
 section{padding:84px 0}
 h2{font-size:38px;margin:8px 0 12px;font-weight:600;color:var(--green)}
 .sub{font-size:19px;color:#5b5446;max-width:800px}
-.center{text-align:center}.center .sub{margin:0 auto}
+.center{text-align:center}.center .sub{margin:0 auto}#why .sub{max-width:none}
 /* app mock */
 .window{margin:46px auto 0;max-width:1120px;border-radius:12px;overflow:hidden;background:var(--cream);box-shadow:0 30px 60px rgba(24,63,53,.28),0 0 0 1px rgba(0,0,0,.08);font:12px -apple-system,Helvetica,Arial}
 .tbar{height:34px;background:#E7E0D1;display:flex;align-items:center;padding:0 12px;gap:7px;border-bottom:1px solid #CFC5B0}
@@ -103,6 +104,6 @@ footer a{color:var(--gold2);text-decoration:none;margin-left:22px}
 .faqpage .terms-table table{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 22px;border-collapse:separate;width:100%}
 .nb{display:inline-block;font:700 11px -apple-system,Helvetica,Arial;letter-spacing:.6px;text-transform:uppercase;background:var(--gold);color:var(--green);border-radius:5px;padding:3px 7px;vertical-align:middle;margin-left:8px}
 .toc{display:flex;flex-wrap:wrap;gap:8px 18px;margin:22px 0 0;font:600 14px -apple-system,Helvetica,Arial}.toc a{color:var(--green)}
-.bench{margin:40px auto 0;max-width:760px;text-align:left;background:#fff;border:1px dashed var(--gold);border-radius:10px;padding:26px 30px}
+.bench{margin:40px auto 0;max-width:1100px;text-align:left;background:#fff;border:1px dashed var(--gold);border-radius:10px;padding:26px 30px}
 .bench h3{margin:0 0 6px;color:var(--green)}
 #tab .two>*{min-width:0}
