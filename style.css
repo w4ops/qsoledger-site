@@ -23,6 +23,7 @@ h1 em{color:var(--gold2);font-style:italic}
 .btn.gold{background:var(--gold);color:var(--green);box-shadow:0 2px 0 #9C7C33}
 .btn.ghost{border:1.5px solid var(--gold);color:var(--cream)}
 .small{font:13px -apple-system,Helvetica,Arial;color:#BFC9BF}
+.hero .terms{font-size:15.5px;line-height:1.6;margin-bottom:28px}.terms span{white-space:nowrap}
 .video{padding:44px 0 8px}.video video{width:100%;max-width:1080px;height:auto;border-radius:10px;box-shadow:0 18px 40px rgba(0,0,0,.25);background:#000}
 .heroicon{display:flex;justify-content:center;padding-bottom:60px}
 .heroicon img{width:330px;filter:drop-shadow(0 24px 40px rgba(0,0,0,.45))}
