@@ -108,3 +108,5 @@ footer a{color:var(--gold2);text-decoration:none;margin-left:22px}
 .bench{margin:40px auto 0;text-align:left;background:#fff;border:1px dashed var(--gold);border-radius:10px;padding:26px 30px}
 .bench h3{margin:0 0 6px;color:var(--green)}
 #tab .two>*{min-width:0}
+.shot{display:block;width:100%;height:auto;margin:30px auto 0}
+.shot.framed{border-radius:10px;box-shadow:0 20px 44px rgba(24,63,53,.25),0 0 0 1px rgba(0,0,0,.1)}
