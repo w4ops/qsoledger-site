@@ -3,7 +3,7 @@
 body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
 a{color:var(--green)}
 .sans{font-family:-apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif}
-.wrap{max-width:none;margin:0 auto;padding:0 clamp(20px,4.5vw,72px)}
+.wrap{max-width:none;margin:0 auto;padding:0 clamp(24px,7vw,120px)}
 nav{background:var(--green);border-bottom:3px solid var(--gold)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
 .brand{display:flex;align-items:center;gap:12px;color:var(--cream);text-decoration:none;font-size:22px;letter-spacing:.5px}
