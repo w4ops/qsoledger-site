@@ -3,7 +3,7 @@
 body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
 a{color:var(--green)}
 .sans{font-family:-apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif}
-.wrap{max-width:none;margin:0 auto;padding:0 clamp(16px,2.5vw,40px)}
+.wrap{max-width:none;margin:0 auto;padding:0 clamp(20px,4.5vw,72px)}
 nav{background:var(--green);border-bottom:3px solid var(--gold)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
 .brand{display:flex;align-items:center;gap:12px;color:var(--cream);text-decoration:none;font-size:22px;letter-spacing:.5px}
@@ -29,7 +29,7 @@ h1 em{color:var(--gold2);font-style:italic}
 .hero .terms{font-size:15.5px;line-height:1.6;margin-bottom:28px}.terms span{display:inline-block;max-width:100%}
 .video{padding:44px 0 8px}.video video{width:100%;max-width:1080px;height:auto;border-radius:10px;box-shadow:0 18px 40px rgba(0,0,0,.25);background:#000}
 .heroicon{display:flex;justify-content:center;padding-bottom:60px}
-.heroicon img{width:330px;filter:drop-shadow(0 24px 40px rgba(0,0,0,.45))}
+.heroicon img{width:min(330px,100%);filter:drop-shadow(0 24px 40px rgba(0,0,0,.45))}
 .band{background:var(--brown);color:var(--cream);padding:16px 0;border-top:3px solid var(--gold)}
 .band .wrap{display:flex;justify-content:space-around;flex-wrap:wrap;gap:16px;font:600 14px -apple-system,Helvetica,Arial;letter-spacing:.5px}
 .band b{color:var(--gold2);font-size:20px;margin-right:6px}
@@ -84,7 +84,7 @@ ul.check li:before{content:"✓";position:absolute;left:4px;color:var(--gold);fo
 footer{background:#10302A;color:#A9B5AC;font:14px -apple-system,Helvetica,Arial;padding:34px 0}
 footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 footer a{color:var(--gold2);text-decoration:none;margin-left:22px}
-@media(max-width:860px){.hero .wrap,.two,.grid,.platforms{grid-template-columns:1fr}h1{font-size:40px}.wbody{grid-template-columns:1fr}.spots{display:none}nav ul{display:none}}
+@media(max-width:860px){.hero .wrap,.two,.grid,.platforms{grid-template-columns:minmax(0,1fr)}h1{font-size:40px}.wbody{grid-template-columns:1fr}.spots{display:none}nav ul{display:none}}
 .card.ph{border-style:dashed;background:#FFFDF8}.card.ph:before{background:#D9CDB4}
 .window.navy{margin:0;background:#E4E5E9;font-size:12px}
 .window.navy th{background:#1F2A6B;border-right-color:#34408A;color:#fff}
