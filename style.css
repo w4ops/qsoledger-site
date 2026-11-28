@@ -36,7 +36,7 @@ h1 em{color:var(--gold2);font-style:italic}
 section{padding:84px 0}
 h2{font-size:38px;margin:8px 0 12px;font-weight:600;color:var(--green)}
 .sub{font-size:19px;color:#5b5446}
-.center{text-align:center}.center .sub{margin:0 auto}#why .sub{max-width:none;margin-bottom:14px}
+.center{text-align:center}.center .sub{margin:0 auto}#why .sub{max-width:none}
 /* app mock */
 .window{margin:46px auto 0;border-radius:12px;overflow:hidden;background:var(--cream);box-shadow:0 30px 60px rgba(24,63,53,.28),0 0 0 1px rgba(0,0,0,.08);font:12px -apple-system,Helvetica,Arial}
 .tbar{height:34px;background:#E7E0D1;display:flex;align-items:center;padding:0 12px;gap:7px;border-bottom:1px solid #CFC5B0}
